@@ -1,0 +1,53 @@
+/* ------ global ------- */
+* {
+  box-sizing: border-box; 
+  /* border-box tells browser to account for any border and padding when specifying an element's width/height */
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  display: inline;
+  margin: 2rem 0rem 0rem 2rem;
+}
+
+input {
+  width: 30rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
+.main {
+  width: 40rem;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header {
+  margin: 2rem 0rem 0rem 2rem;
+  text-align: center;
+  /* padding: 2rem 0rem .5rem 2rem; */
+  /* background-color: rgb(242, 242, 242); */
+}
+
+.nav_main {
+  /* padding: 1rem 3rem 2rem 1rem; */
+  font-size: 1rem;
+  /* background-color: rgb(242, 242, 242); */
+}
+
+.search_field {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center; */
+  margin: 0rem, 1rem, 1rem, 1rem;
+  width: 40rem;
+}
